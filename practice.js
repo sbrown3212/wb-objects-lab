@@ -314,6 +314,29 @@ const employees = [
 */
 
 //Code Here
+function employeeUpdater() {
+  for (let employee of employees) {
+    if (employee.firstName === `Theo`) {
+      employees.splice(employees.indexOf(employee), 1);
+    }
+    if (employee.firstName === `Lorie`) {
+      employee.department = `HR`;
+    }
+  }
+  return employees;
+}
+// function employeeUpdater() {
+//   for (let i = 0; i < employees.length; i++) {
+//     if (employees[i].firstName === `Theo`) {
+//       employees.splice(i, 1);
+//     }
+//     if (employees[i].firstName === `Lorie`) {
+//       employees[i].department = `HR`;
+//     }
+//   }
+//   return employees;
+// }
+
 
 /// ////////////// PROBLEM 16 ///////////////////
 
@@ -342,6 +365,9 @@ const cat = {
 //Code Here
 let grumpyActivity;
 let fluffy2ndFriend;
+
+grumpyActivity = cat.catFriends[0].activities[1];
+fluffy2ndFriend = cat.catFriends[1].name;
 
 /// ////////////// PROBLEM 17 ///////////////////
 
