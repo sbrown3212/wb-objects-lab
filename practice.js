@@ -406,6 +406,11 @@ const myCar = {
 */
 
 //Code Here
+function recordCleaner() {
+  for (let accident of myCar.accidents) {
+    accident.atFaultForAccident = false;
+  }
+}
 
 /// ////////////// PROBLEM 18 ///////////////////
 
@@ -424,6 +429,9 @@ const myCar = {
 */
 
 //Code Here
+function largeNumbers({first, second, third}) {
+  return Math.min(first, second, third);
+}
 
 /// ////////////// PROBLEM 19 ///////////////////
 
