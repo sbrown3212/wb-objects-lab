@@ -44,6 +44,9 @@ const favoriteThings = {
 */
 
 //Code here
+favoriteThings.car = `e36 M3`;
+favoriteThings.brand = `BMW`;
+console.log(favoriteThings);
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -51,6 +54,8 @@ const favoriteThings = {
 */
 
 //Code here
+favoriteThings.food = `Chicken Nuggets`;
+favoriteThings.book = `Harry Potter`;
 
 /// ////////////// PROBLEM 3 ///////////////////
 
@@ -72,6 +77,8 @@ const user2 = {
 */
 
 //Code Here
+user2.name = `Bryan G. Smith`;
+user2.email = `bryan.smith@devmounta.in`;
 
 /// ////////////// PROBLEM 4 ///////////////////
 
@@ -83,6 +90,9 @@ let shoppingCart = {};
 */
 
 //Code Here
+function addToCart(item, qty) {
+  shoppingCart[item] = qty;
+}
 
 /// ////////////// PROBLEM 5 ///////////////////
 
