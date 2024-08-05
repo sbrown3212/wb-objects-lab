@@ -249,6 +249,10 @@ function greeting(obj) {
 */
 
 //Code Here
+function totalPopulation(obj) {
+  const {utah, california, texas, arizona} = obj;
+  return utah + california + texas + arizona;
+}
 
 /// ////////////// PROBLEM 14 ///////////////////
 
@@ -261,6 +265,9 @@ function greeting(obj) {
 */
 
 //Code Here
+function usCanadaBorder([latitude, longitude]) {
+  return latitude === 49 && longitude >= -123 && longitude <= -95;
+}
 
 /// ////////////// PROBLEM 15 ///////////////////
 
