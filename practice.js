@@ -15,6 +15,11 @@
 */
 
 //Code here
+const me = {
+  name: `Stephen`,
+  age: 34
+};
+//alert(me.name)
 
 /// ////////////// PROBLEM 2 ///////////////////
 
@@ -24,6 +29,14 @@
 */
 
 //Code here
+const favoriteThings = {
+  band: `A Day to Remember`,
+  food: `Italian`,
+  person: `Hailee`,
+  book: `The Stormlight Archive Series`,
+  movie: `The Bourne Series`,
+  holiday: `Thanksgiving`,
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
