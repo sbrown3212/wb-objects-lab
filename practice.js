@@ -136,6 +136,14 @@ function double(obj) {
 
 function showValues(obj) {
   //Code Here
+  const values = Object.values(obj);
+  // let string = ``;
+  // for (let value of values) {
+  //   string += value;
+  // }
+  // return string;
+  // or
+  return values.join(``);
 }
 
 /// ////////////// PROBLEM 8 ///////////////////
@@ -147,6 +155,11 @@ function showValues(obj) {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+  return { 'cardNumber': cardNumber, 'expirationDate': expirationDate, 'securityCode': securityCode}
+}
+
+// QUESTION: can you not use backticks to set the key?
 
 /// ////////////// PROBLEM 9 ///////////////////
 
