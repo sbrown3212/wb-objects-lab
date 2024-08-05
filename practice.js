@@ -46,7 +46,6 @@ const favoriteThings = {
 //Code here
 favoriteThings.car = `e36 M3`;
 favoriteThings.brand = `BMW`;
-console.log(favoriteThings);
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -156,7 +155,7 @@ function showValues(obj) {
 
 //Code Here
 function makeCard(cardNumber, expirationDate, securityCode) {
-  return { 'cardNumber': cardNumber, 'expirationDate': expirationDate, 'securityCode': securityCode}
+  return { 'cardNumber': cardNumber, 'expirationDate': expirationDate, 'securityCode': securityCode }
 }
 
 // QUESTION: can you not use backticks to set the key?
@@ -169,6 +168,10 @@ function makeCard(cardNumber, expirationDate, securityCode) {
 */
 
 //Code Here
+function removePassword(obj) {
+  delete obj.password;
+  return obj;
+}
 
 /// ////////////// PROBLEM 10 ///////////////////
 
@@ -186,6 +189,11 @@ const deleteTheBigNumbers = {
 */
 
 //Code Here
+for (let key in deleteTheBigNumbers) {
+  if (deleteTheBigNumbers[key] > 100) {
+    delete deleteTheBigNumbers[key];
+  }
+}
 
 /*
   Once you complete a problem, refresh ./destructuring.html in your browser and check to see if the problem's test(s) are passing.
