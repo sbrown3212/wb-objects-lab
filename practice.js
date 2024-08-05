@@ -442,3 +442,14 @@ function largeNumbers({first, second, third}) {
 */
 
 //Code Here
+function numberGroups({a, b, c}) {
+  if (a.length < b.length && a.length < c.length) {
+    return a;
+  } else if (b.length > c.length) {
+    return b;
+  } else {
+    return c;
+  }
+}
+
+// QUESTION: is there a more concise way to do this problem?
